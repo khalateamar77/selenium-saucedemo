@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SauceDemoTestSuite">
+    <parameter name="browser" value="chrome"/>
+    
+    <test name="SauceDemoTests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.ProductTest"/>
+            <class name="tests.CartTest"/>
+            <class name="tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
